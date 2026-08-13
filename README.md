@@ -12,6 +12,7 @@ partner.
 
 ## Documentation
 
+- [Browse the documentation site](https://codevelohq.github.io/codevelo-docs/)
 - [Platform overview](docs/platform-overview.md)
 - [Product and capability catalog](docs/product-catalog.md)
 - [Service capabilities](docs/service-capabilities.md)
@@ -40,3 +41,22 @@ permission to copy, modify, or redistribute CodeVelo material.
 
 For suspected vulnerabilities, follow [SECURITY.md](SECURITY.md) rather than opening a
 public issue.
+
+## Local preview
+
+The documentation site is built with [MkDocs](https://www.mkdocs.org/) and the Material
+theme. With Python 3 installed:
+
+```shell
+python -m venv .venv
+.venv\Scripts\activate
+python -m pip install --requirement requirements.txt
+mkdocs serve
+```
+
+On macOS or Linux, activate the environment with `source .venv/bin/activate`. Open
+`http://127.0.0.1:8000` to preview the site. Run `mkdocs build --strict` before
+submitting a change.
+
+Pushes to `main` are automatically built and deployed to GitHub Pages. Pull requests
+run the same strict build without deploying.

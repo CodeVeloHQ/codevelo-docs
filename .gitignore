@@ -4,4 +4,6 @@ Thumbs.db
 .vscode/
 *.tmp
 *.log
+site/
+.venv/
 

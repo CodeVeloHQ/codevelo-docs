@@ -13,3 +13,20 @@ Before submitting a change:
 For substantial additions, open a public documentation issue before preparing a pull
 request. Security concerns must follow [SECURITY.md](SECURITY.md).
 
+## Preview documentation changes
+
+Install the pinned documentation dependencies and start the local preview server:
+
+```shell
+python -m venv .venv
+.venv\Scripts\activate
+python -m pip install --requirement requirements.txt
+mkdocs serve
+```
+
+On macOS or Linux, activate the environment with `source .venv/bin/activate`. Before
+submitting a pull request, verify the production build succeeds:
+
+```shell
+mkdocs build --strict
+```

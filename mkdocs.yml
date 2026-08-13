@@ -1,0 +1,65 @@
+site_name: CodeVelo Documentation
+site_description: Public documentation for CodeVelo services, platform direction, and engineering practices.
+site_url: https://codevelohq.github.io/codevelo-docs/
+repo_url: https://github.com/CodeVeloHQ/codevelo-docs
+repo_name: CodeVeloHQ/codevelo-docs
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2026 CodeVelo.dev LLC
+
+theme:
+  name: material
+  language: en
+  features:
+    - content.action.edit
+    - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: light blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+nav:
+  - Home: index.md
+  - Platform:
+      - Overview: platform-overview.md
+      - Product and capability catalog: product-catalog.md
+      - Architecture principles: architecture-principles.md
+      - Public release status: release-status.md
+  - Services: service-capabilities.md
+  - Security and privacy: security-and-privacy.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.superfences
+  - tables
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/CodeVeloHQ
+      name: CodeVelo on GitHub
+  generator: false
+

@@ -26,5 +26,4 @@ and reviewed in the context of the deployed system.
 ## Vulnerability reporting
 
 Do not open a public issue for a suspected vulnerability. Follow the instructions in
-[the repository security policy](../SECURITY.md).
-
+[the repository security policy](https://github.com/CodeVeloHQ/codevelo-docs/security/policy).
