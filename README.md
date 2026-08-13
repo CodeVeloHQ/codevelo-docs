@@ -13,12 +13,12 @@ partner.
 ## Documentation
 
 - [Browse the documentation site](https://codevelohq.github.io/codevelo-docs/)
-- [Platform overview](docs/platform-overview.md)
-- [Product and capability catalog](docs/product-catalog.md)
-- [Service capabilities](docs/service-capabilities.md)
-- [Architecture principles](docs/architecture-principles.md)
-- [Security and privacy](docs/security-and-privacy.md)
-- [Public release status](docs/release-status.md)
+- [Platform overview](https://codevelohq.github.io/codevelo-docs/platform-overview/)
+- [Product and capability catalog](https://codevelohq.github.io/codevelo-docs/product-catalog/)
+- [Service capabilities](https://codevelohq.github.io/codevelo-docs/service-capabilities/)
+- [Architecture principles](https://codevelohq.github.io/codevelo-docs/architecture-principles/)
+- [Security and privacy](https://codevelohq.github.io/codevelo-docs/security-and-privacy/)
+- [Public release status](https://codevelohq.github.io/codevelo-docs/release-status/)
 
 ## Scope
 
@@ -39,8 +39,8 @@ permission to copy, modify, or redistribute CodeVelo material.
 - Email: [contact@codevelo.dev](mailto:contact@codevelo.dev)
 - Discovery call: [codevelo.dev/book](https://codevelo.dev/book)
 
-For suspected vulnerabilities, follow [SECURITY.md](SECURITY.md) rather than opening a
-public issue.
+For suspected vulnerabilities, follow the [security policy](https://codevelohq.github.io/codevelo-docs/security-policy/)
+rather than opening a public issue.
 
 ## Local preview
 

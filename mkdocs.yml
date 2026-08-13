@@ -44,6 +44,10 @@ nav:
       - Public release status: release-status.md
   - Services: service-capabilities.md
   - Security and privacy: security-and-privacy.md
+  - Repository:
+      - Repository guide: repository-guide.md
+      - Contributing: contributing.md
+      - Security policy: security-policy.md
 
 plugins:
   - search
@@ -53,6 +57,10 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.details
+  - pymdownx.snippets:
+      base_path:
+        - .
+      check_paths: true
   - pymdownx.superfences
   - tables
 
@@ -62,4 +70,3 @@ extra:
       link: https://github.com/CodeVeloHQ
       name: CodeVelo on GitHub
   generator: false
-

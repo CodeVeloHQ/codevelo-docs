@@ -21,6 +21,10 @@ partner.
 - [Public release status](release-status.md) clarifies what is and is not publicly
   available.
 
+Repository policies and contributor information are also available in the
+[repository guide](repository-guide.md), [contribution guide](contributing.md), and
+[security policy](security-policy.md).
+
 ## Documentation scope
 
 These documents explain CodeVelo at a public, product-oriented level. They intentionally
@@ -40,4 +44,3 @@ or offered as a standalone service.
 For suspected vulnerabilities, follow the repository's
 [security policy](https://github.com/CodeVeloHQ/codevelo-docs/security/policy) rather
 than opening a public issue.
-

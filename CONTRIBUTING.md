@@ -11,7 +11,8 @@ Before submitting a change:
 4. Link supporting public sources when a change depends on an external standard.
 
 For substantial additions, open a public documentation issue before preparing a pull
-request. Security concerns must follow [SECURITY.md](SECURITY.md).
+request. Security concerns must follow the
+[security policy](https://codevelohq.github.io/codevelo-docs/security-policy/).
 
 ## Preview documentation changes
 
