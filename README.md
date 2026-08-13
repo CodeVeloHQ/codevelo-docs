@@ -30,8 +30,10 @@ Product names and architectural roles describe the current CodeVelo platform dir
 They do not guarantee that every component is publicly available, separately licensed,
 or offered as a standalone service.
 
-Unless a repository includes an explicit license, publication on GitHub does not grant
-permission to copy, modify, or redistribute CodeVelo material.
+This repository is provided under the [CodeVelo Proprietary Documentation
+License](https://codevelohq.github.io/codevelo-docs/license/). Publication on GitHub
+does not grant permission to copy, modify, or redistribute its materials except as
+expressly stated in that license.
 
 ## Contact
 

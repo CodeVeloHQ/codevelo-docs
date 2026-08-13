@@ -48,6 +48,7 @@ nav:
       - Repository guide: repository-guide.md
       - Contributing: contributing.md
       - Security policy: security-policy.md
+      - License: license.md
 
 plugins:
   - search
