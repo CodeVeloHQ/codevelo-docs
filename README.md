@@ -35,7 +35,7 @@ permission to copy, modify, or redistribute CodeVelo material.
 ## Contact
 
 - Website: [codevelo.dev](https://codevelo.dev)
-- Email: [hello@codevelo.dev](mailto:hello@codevelo.dev)
+- Email: [contact@codevelo.dev](mailto:contact@codevelo.dev)
 - Discovery call: [codevelo.dev/book](https://codevelo.dev/book)
 
 For suspected vulnerabilities, follow [SECURITY.md](SECURITY.md) rather than opening a
